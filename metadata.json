@@ -1,0 +1,6 @@
+{
+  "name": "FlinkGuard - Realtime Ad Click Fraud Detection",
+  "description": "Comprehensive stream processing analytics project workflow, real-time Apache Flink pipeline simulator, architecture blueprints, and forensic dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
