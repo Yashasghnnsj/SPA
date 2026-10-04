@@ -1,8 +1,27 @@
+# Dependencies
 node_modules/
-build/
+
+# Production Build
 dist/
+build/
 coverage/
-.DS_Store
-*.log
+
+# Environment variables
 .env*
 !.env.example
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large Kaggle Datasets (Exceeds GitHub 100MB file limit)
+data/train.csv
+data/test.csv
+data/test_supplement.csv
+data/sample_submission.csv
+data/*.zip
+data/*.tar.gz

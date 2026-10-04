@@ -1,0 +1,55 @@
+{
+  "roc_auc": 0.9624674823225987,
+  "pr_auc": 0.999905354078241,
+  "precision": 0.998982532897519,
+  "recall": 0.999820679374722,
+  "f1_score": 0.999401430408587,
+  "confusion_matrix": [
+    [
+      1543,
+      2033
+    ],
+    [
+      358,
+      1996066
+    ]
+  ],
+  "training_time_seconds": 34.58137822151184,
+  "train_samples": 8000000,
+  "test_samples": 2000000,
+  "feature_importances": {
+    "same_app_click_count": 0.19656117260456085,
+    "clicks_per_device": 0.181730255484581,
+    "unique_apps_per_ip": 0.102165088057518,
+    "device": 0.0941043347120285,
+    "channel": 0.08964132517576218,
+    "app": 0.08903923630714417,
+    "clicks_from_same_ip": 0.06455560773611069,
+    "ip_device_os_frequency": 0.032098304480314255,
+    "ip_app_channel_frequency": 0.030677666887640953,
+    "os": 0.028304869309067726,
+    "time_since_previous_click": 0.023276057094335556,
+    "bot_behavior_ratio": 0.020639775320887566,
+    "unique_channels_per_ip": 0.01975822262465954,
+    "unique_devices_per_ip": 0.01497695129364729,
+    "hour": 0.012471073307096958
+  },
+  "feature_names": [
+    "app",
+    "device",
+    "os",
+    "channel",
+    "hour",
+    "clicks_from_same_ip",
+    "clicks_per_device",
+    "unique_devices_per_ip",
+    "unique_channels_per_ip",
+    "time_since_previous_click",
+    "same_app_click_count",
+    "unique_apps_per_ip",
+    "ip_app_channel_frequency",
+    "ip_device_os_frequency",
+    "bot_behavior_ratio"
+  ],
+  "updated_at": "2026-10-04T13:31:10.970608+00:00"
+}
